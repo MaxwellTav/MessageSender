@@ -126,7 +126,9 @@ namespace WhatsappMessageSender
             //obten todos los componentes textbox y limpialos
             foreach (Control ctrl in Controls)
             {
+#pragma warning disable CS0252 // Posible comparación de referencias involuntaria: El lado de la mano izquierda necesita conversión
                 if (ctrl.Tag == "control")
+#pragma warning restore CS0252 // Posible comparación de referencias involuntaria: El lado de la mano izquierda necesita conversión
                 {
                     ctrl.Text = "";
                 }
