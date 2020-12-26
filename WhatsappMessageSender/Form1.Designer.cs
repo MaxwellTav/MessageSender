@@ -34,7 +34,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.titleText = new System.Windows.Forms.Label();
             this.minimizeButton = new System.Windows.Forms.Button();
-            this.maximizeButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.phoneNumber = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -69,7 +68,6 @@
             this.borderPanel.Controls.Add(this.pictureBox1);
             this.borderPanel.Controls.Add(this.titleText);
             this.borderPanel.Controls.Add(this.minimizeButton);
-            this.borderPanel.Controls.Add(this.maximizeButton);
             this.borderPanel.Controls.Add(this.exitButton);
             this.borderPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.borderPanel.Location = new System.Drawing.Point(0, 0);
@@ -107,27 +105,12 @@
             this.minimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.minimizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.minimizeButton.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minimizeButton.Location = new System.Drawing.Point(264, 0);
+            this.minimizeButton.Location = new System.Drawing.Point(290, 0);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(27, 27);
             this.minimizeButton.TabIndex = 3;
             this.minimizeButton.UseVisualStyleBackColor = true;
             this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
-            // 
-            // maximizeButton
-            // 
-            this.maximizeButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.maximizeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("maximizeButton.BackgroundImage")));
-            this.maximizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.maximizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.maximizeButton.Enabled = false;
-            this.maximizeButton.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maximizeButton.Location = new System.Drawing.Point(290, 0);
-            this.maximizeButton.Name = "maximizeButton";
-            this.maximizeButton.Size = new System.Drawing.Size(27, 27);
-            this.maximizeButton.TabIndex = 2;
-            this.maximizeButton.UseVisualStyleBackColor = true;
-            this.maximizeButton.Click += new System.EventHandler(this.maximizeButton_Click);
             // 
             // exitButton
             // 
@@ -410,7 +393,6 @@
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button minimizeButton;
-        private System.Windows.Forms.Button maximizeButton;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.MaskedTextBox phoneNumber;
         private System.Windows.Forms.Label label2;

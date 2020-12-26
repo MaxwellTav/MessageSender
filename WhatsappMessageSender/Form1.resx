@@ -153,16 +153,6 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="maximizeButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAARpJREFUaEPt
-        2UFqQlEQRNG/EMkoSPYeDO5LDIkuIOk3EGpwJ2U6loO+cKbVH3H2tmmapqfupRzKqfw82Lr5UV7LXa2P
-        /yw0/kjnsit265enwYT3YncpNJbwVexoKMmORpLsaCTJjkaS7GhEdUc3lB2NqO7ohrKjEdUd3VB2NKK6
-        oxvKjkaS7GgkyY5GkuxoJMmORlR3dEPZ0Yjqjm4oOxpR3dENZUcjqju6oexoRHVHN5Qdjaju6IayoxHV
-        Hd1QdjSiuqMbyo5GVHd0Q9nRiOqObig7GlHd0Q1lRyOqO7qh7GgkyY5GkuxoJMmORpLsroWGEr6L3bHQ
-        WMJ66LB7K8/wwLG+YV/u6vbElHgrWH+bPz0xTdM0/Xfb9gt6ub4sZydJlwAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="exitButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABGdBTUEAALGPC/xhBQAAAWdJREFUaEPt

@@ -36,17 +36,6 @@ namespace WhatsappMessageSender
                 Application.Exit();
             }
         }
-        private void maximizeButton_Click(object sender, EventArgs e)
-        {
-            if (WindowState == FormWindowState.Normal)
-            {
-                WindowState = FormWindowState.Maximized;
-            }
-            else
-            {
-                WindowState = FormWindowState.Normal;
-            }
-        }
         private void minimizeButton_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
@@ -119,10 +108,6 @@ namespace WhatsappMessageSender
 
             //---------------------Tamaños--------------------//
             indexform.Size = new Size(344, 494);
-
-            //-----------------Localizaciones-----------------//
-            hidePass.Location = new Point(197, 38);
-            showPass.Location = new Point(197, 38);
 
             //-------------------Visibilidad------------------//
             hidePass.Visible = false;
