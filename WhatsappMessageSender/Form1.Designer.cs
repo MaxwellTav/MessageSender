@@ -120,6 +120,7 @@
             this.maximizeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("maximizeButton.BackgroundImage")));
             this.maximizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.maximizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.maximizeButton.Enabled = false;
             this.maximizeButton.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maximizeButton.Location = new System.Drawing.Point(290, 0);
             this.maximizeButton.Name = "maximizeButton";
